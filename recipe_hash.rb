@@ -12,7 +12,7 @@
 #  - olive oil - 1/2 cup
 #  - agave - 1/4 cup
 # All of the ingredients should be symbols and the amounts should be strings. Remember that symbols start with a colon and be sure to sub underscores for spaces.
- perfect_10_recipe = {:cups_of_almond_flour => "2",:cup_of_gluten_freewhole_oats => "1", :tsp_kosher_salt => "1/2", :tsp_baking_powder => "1/2", :tsp_Xanthan_Gum => "1/2", :cup_slivered_almonds_lightly_toasted => "1/4", :cup_mini_dark_choco_chips => "3/4", :cup_olive_oil => "1/2", :cup_agave => "1/4"} 
+ perfect_10_recipe = {:cups_of_almond_flour => "2",:cup_of_gluten_freewhole_oats => "1", :tsp_kosher_salt => "1/2", :tsp_baking_powder => "1/2", :tsp_Xanthan_Gum => "1/2", :cup_slivered_almonds_lightly_toasted => "1/4", :cup_mini_dark_choco_chips => "3", :cup_olive_oil => "1/2", :cup_agave => "1/4"} 
 #2. Write a method that simply returns (not puts) your perfect_10 hash
 def recipe_ingredients(perfect_10_recipe)
 perfect_10_recipe 
@@ -21,7 +21,7 @@ perfect_10_recipe
 
 #2: Write code that returns the amount of chocolate chips from perfect_10 ingredients that is needed in the recipe.
 def amount_of_chocolate_chips(perfect_10_recipe)
-  perfect_10_recipe = {:cups_of_almond_flour => "2",:cup_of_gluten_freewhole_oats => "1", :tsp_kosher_salt => "1/2", :tsp_baking_powder => "1/2", :tsp_Xanthan_Gum => "1/2", :cup_slivered_almonds_lightly_toasted => "1/4", :cup_mini_dark_choco_chips => "3/4", :cup_olive_oil => "1/2", :cup_agave => "1/4"} 
+  perfect_10_recipe = {:cups_of_almond_flour => "2",:cup_of_gluten_freewhole_oats => "1", :tsp_kosher_salt => "1/2", :tsp_baking_powder => "1/2", :tsp_Xanthan_Gum => "1/2", :cup_slivered_almonds_lightly_toasted => "1/4", :cup_mini_dark_choco_chips => "3", :cup_olive_oil => "1/2", :cup_agave => "1/4"} 
   puts perfect_10_recipe[:cup_mini_dark_choco_chips]
 end
 
