@@ -36,3 +36,4 @@ end
 #6: Return the number of ingredients in the `perfect_10_recipe` hash.
 def number_ingredients(perfect_10_recipe)
 end
+{cups of almond flour => 2,cup of gluten freewhole oats => 1, tsp. kosher salt => 0.5, tsp baking powder => 0.5, tsp. Xanthan Gum => 0.5, cup slivered almonds lightly toasted => 0}
