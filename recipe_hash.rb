@@ -28,7 +28,7 @@ end
 
 #3: Use `puts` to print out every ingredient and amount in the hash by iterating through the collection. You'll want to use the `each` method.
 def ingredients_and_amounts(perfect_10_recipe)
-  
+  puts  perfect_10_recipe = {:cups_of_almond_flour => "2",:cup_of_gluten_freewhole_oats => "1", :tsp_kosher_salt => "1/2", :tsp_baking_powder => "1/2", :tsp_Xanthan_Gum => "1/2", :cup_slivered_almonds_lightly_toasted => "1/4", :cup_mini_dark_choco_chips => "3", :cup_olive_oil => "1/2", :cup_agave => "1/4"}.each
 end
 
 #4: Now use `puts` to print out just the ingredients without the amounts. You'll want to use the `each_key` method.
